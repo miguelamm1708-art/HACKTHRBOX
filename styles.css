@@ -7,13 +7,17 @@ body{
     background-color: rgb(11, 18, 31)
 }
 
+a {
+    text-decoration: none;
+}
+
 h1{
 
     color:rgb(255, 255, 255)
 }
 
 .titulo{
-    font-size: 4rem;
+    font-size: 60px;
 }
 
 .marquee{
@@ -57,31 +61,32 @@ p{
     color:rgb(255, 255, 255)
 }
 
-.button-grean{
+.grean{
     background-color:rgb(159, 239, 0);
     color:rgb(20, 29, 43);
-    font-size: 16px ;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
     transition: background-color 0.3s rgb(187, 255, 52);
 }
 
-.button-grean:hover{
-    background-color: rgb(187, 255, 52);
-}
-
-.button-gray{
-    background-color:rgb(32, 40, 55);
-    color:rgb(164, 177, 205);
+.button{
     font-size: 16px ;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    display:flex ;
+    margin: 2px 6px 2px 2px;
+}
+
+.grean:hover{
+    background-color: rgb(187, 255, 52);
+}
+
+.gray{
+    background-color:rgb(32, 40, 55);
+    color:rgb(164, 177, 205);
     transition: background-color 0.3s rgb(32, 40, 55);
 }
 
-.button-gray:hover{
+.gray:hover{
     background-color: rgb(164, 177, 205);
     color: rgb(255, 255, 255);
 }
@@ -91,7 +96,7 @@ p{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .zoom-link {
@@ -101,3 +106,29 @@ p{
 .zoom-link:hover {
     transform: scale(1.05);
 }
+
+.box1 {
+    display: flex;
+    padding: 1px;
+    margin: 2px 2px 2px 30px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.radio {
+    border-radius: 10px;
+}
+
+.subtitle {
+    font-size: 40px;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    margin: 10px 2px 2px 2px;
+}
+
