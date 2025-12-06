@@ -132,3 +132,25 @@ p{
     margin: 10px 2px 2px 2px;
 }
 
+.box4{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 20px 150px 20px;
+}
+
+.panel {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.item {
+    flex-shrink: 0;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box5 {
+    display: flex;
+}
